@@ -1,0 +1,14 @@
+{
+  "classes": [
+    "Account",
+    "Billing",
+    "Product",
+    "Shipping",
+    "Technical"
+  ],
+  "micro_auc": {
+    "Logistic Regression": 1.0,
+    "Random Forest": 0.9997395,
+    "SVM": 1.0
+  }
+}

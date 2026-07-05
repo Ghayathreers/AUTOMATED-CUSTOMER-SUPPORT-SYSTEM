@@ -1,0 +1,156 @@
+{
+  "logisticRegression": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1Score": 1.0,
+    "rocAuc": 1.0
+  },
+  "randomForest": {
+    "accuracy": 0.9905,
+    "precision": 0.9908653846153846,
+    "recall": 0.9906172839506173,
+    "f1Score": 0.9905219077475225,
+    "rocAuc": 0.99525
+  },
+  "svm": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1Score": 1.0,
+    "rocAuc": 1.0
+  },
+  "confusionMatrix": {
+    "labels": [
+      "Account",
+      "Billing",
+      "Product",
+      "Shipping",
+      "Technical"
+    ],
+    "matrix": [
+      [
+        393,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        413,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        405,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        392,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        397
+      ]
+    ]
+  },
+  "featureImportance": [
+    {
+      "feature": "package",
+      "importance": 2.719641590498031
+    },
+    {
+      "feature": "billing",
+      "importance": 2.388131981010072
+    },
+    {
+      "feature": "profile",
+      "importance": 2.3014997178104517
+    },
+    {
+      "feature": "change",
+      "importance": 2.281974809996382
+    },
+    {
+      "feature": "shipping",
+      "importance": 2.272772713451997
+    },
+    {
+      "feature": "delivery",
+      "importance": 2.24897741100043
+    },
+    {
+      "feature": "order",
+      "importance": 2.113972767572401
+    },
+    {
+      "feature": "account",
+      "importance": 2.0915364972116253
+    },
+    {
+      "feature": "update",
+      "importance": 2.0253031688153627
+    },
+    {
+      "feature": "tried",
+      "importance": 1.9968713568242253
+    },
+    {
+      "feature": "im",
+      "importance": 1.980910202044944
+    },
+    {
+      "feature": "code",
+      "importance": 1.9269003039570105
+    },
+    {
+      "feature": "email",
+      "importance": 1.924581488069681
+    },
+    {
+      "feature": "want",
+      "importance": 1.8310077960531863
+    },
+    {
+      "feature": "received",
+      "importance": 1.702123579922148
+    }
+  ],
+  "comparison": [
+    {
+      "modelName": "Logistic Regression",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1Score": 1.0
+    },
+    {
+      "modelName": "Random Forest",
+      "accuracy": 0.9905,
+      "precision": 0.9908653846153846,
+      "recall": 0.9906172839506173,
+      "f1Score": 0.9905219077475225
+    },
+    {
+      "modelName": "SVM",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1Score": 1.0
+    }
+  ],
+  "bestModelName": "Logistic Regression",
+  "crossValidationScore": 1.0
+}

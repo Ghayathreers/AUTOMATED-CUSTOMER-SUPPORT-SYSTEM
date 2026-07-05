@@ -1,0 +1,33 @@
+# =============================================================
+# Python Dependencies for Automated Customer Support AI
+# =============================================================
+
+# Core utilities and data handling
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Deep Learning and embeddings
+# torch>=2.0.0
+# transformers>=4.30.0
+
+# Natural Language Processing
+# nltk>=3.8.0
+# spacy>=3.5.0
+rouge-score>=0.1.2
+
+# Generative AI & SDKs
+google-genai>=0.1.0
+google-generativeai>=0.3.0
+pydantic>=2.0.0
+
+# API Infrastructure (FastAPI emulator backend)
+fastapi>=0.100.0
+uvicorn>=0.22.0
+python-multipart>=0.0.6
+requests>=2.30.0
+
+# Streamlit Console Frontend
+streamlit>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
